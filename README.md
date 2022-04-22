@@ -6,8 +6,10 @@
 
 Fork it and change `db.json` values or create a repo with a `db.json` file.
 
-## Open Source Plan
+## Limit
 
 - 10KB db.json max
 - 5 max REST endpoints
 - 30 max items per endpoint
+- Requests are cached (1 minute)
+- Changes are faked and aren't persisted (just like JSONPlaceholder)
